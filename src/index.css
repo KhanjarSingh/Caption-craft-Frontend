@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+/* Import Noto Sans for better Devanagari support */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap");
+
+/* Base font settings */
+html {
+  font-family:
+    "Noto Sans",
+    "Noto Sans Devanagari",
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+/* Caption text specific styles */
+.caption-text {
+  font-family:
+    "Noto Sans Devanagari",
+    "Noto Sans",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}

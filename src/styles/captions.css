@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+}
+
+@font-face {
+  font-family: "Noto Sans Devanagari";
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap");
+}
+
+.caption-text {
+  font-family: "Noto Sans", "Noto Sans Devanagari", sans-serif;
+}
+
+.caption-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.caption-style-bottom {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 80%;
+  padding: 10px 20px;
+}
+
+.caption-style-top {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  max-width: 80%;
+}
+
+.caption-style-karaoke {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 80%;
+}
